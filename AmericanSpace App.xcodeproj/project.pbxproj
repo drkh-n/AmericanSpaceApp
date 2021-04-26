@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF56D612636FA430068E018 /* AmericanSpace_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF56D602636FA430068E018 /* AmericanSpace_AppApp.swift */; };
+		FAF56D632636FA430068E018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF56D622636FA430068E018 /* ContentView.swift */; };
+		FAF56D652636FA440068E018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF56D642636FA440068E018 /* Assets.xcassets */; };
+		FAF56D682636FA440068E018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF56D672636FA440068E018 /* Preview Assets.xcassets */; };
+		FAF56D732636FA440068E018 /* AmericanSpace_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF56D722636FA440068E018 /* AmericanSpace_AppTests.swift */; };
+		FAF56D7E2636FA440068E018 /* AmericanSpace_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF56D7D2636FA440068E018 /* AmericanSpace_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF56D6F2636FA440068E018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF56D552636FA430068E018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF56D5C2636FA430068E018;
+			remoteInfo = "AmericanSpace App";
+		};
+		FAF56D7A2636FA440068E018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF56D552636FA430068E018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF56D5C2636FA430068E018;
+			remoteInfo = "AmericanSpace App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF56D5D2636FA430068E018 /* AmericanSpace App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmericanSpace App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF56D602636FA430068E018 /* AmericanSpace_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanSpace_AppApp.swift; sourceTree = "<group>"; };
+		FAF56D622636FA430068E018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAF56D642636FA440068E018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF56D672636FA440068E018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAF56D692636FA440068E018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF56D6E2636FA440068E018 /* AmericanSpace AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AmericanSpace AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF56D722636FA440068E018 /* AmericanSpace_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanSpace_AppTests.swift; sourceTree = "<group>"; };
+		FAF56D742636FA440068E018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF56D792636FA440068E018 /* AmericanSpace AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AmericanSpace AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF56D7D2636FA440068E018 /* AmericanSpace_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanSpace_AppUITests.swift; sourceTree = "<group>"; };
+		FAF56D7F2636FA440068E018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF56D5A2636FA430068E018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF56D6B2636FA440068E018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF56D762636FA440068E018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF56D542636FA430068E018 = {
+			isa = PBXGroup;
+			children = (
+				FAF56D5F2636FA430068E018 /* AmericanSpace App */,
+				FAF56D712636FA440068E018 /* AmericanSpace AppTests */,
+				FAF56D7C2636FA440068E018 /* AmericanSpace AppUITests */,
+				FAF56D5E2636FA430068E018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF56D5E2636FA430068E018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF56D5D2636FA430068E018 /* AmericanSpace App.app */,
+				FAF56D6E2636FA440068E018 /* AmericanSpace AppTests.xctest */,
+				FAF56D792636FA440068E018 /* AmericanSpace AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF56D5F2636FA430068E018 /* AmericanSpace App */ = {
+			isa = PBXGroup;
+			children = (
+				FAF56D602636FA430068E018 /* AmericanSpace_AppApp.swift */,
+				FAF56D622636FA430068E018 /* ContentView.swift */,
+				FAF56D642636FA440068E018 /* Assets.xcassets */,
+				FAF56D692636FA440068E018 /* Info.plist */,
+				FAF56D662636FA440068E018 /* Preview Content */,
+			);
+			path = "AmericanSpace App";
+			sourceTree = "<group>";
+		};
+		FAF56D662636FA440068E018 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAF56D672636FA440068E018 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAF56D712636FA440068E018 /* AmericanSpace AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF56D722636FA440068E018 /* AmericanSpace_AppTests.swift */,
+				FAF56D742636FA440068E018 /* Info.plist */,
+			);
+			path = "AmericanSpace AppTests";
+			sourceTree = "<group>";
+		};
+		FAF56D7C2636FA440068E018 /* AmericanSpace AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF56D7D2636FA440068E018 /* AmericanSpace_AppUITests.swift */,
+				FAF56D7F2636FA440068E018 /* Info.plist */,
+			);
+			path = "AmericanSpace AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF56D5C2636FA430068E018 /* AmericanSpace App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF56D822636FA440068E018 /* Build configuration list for PBXNativeTarget "AmericanSpace App" */;
+			buildPhases = (
+				FAF56D592636FA430068E018 /* Sources */,
+				FAF56D5A2636FA430068E018 /* Frameworks */,
+				FAF56D5B2636FA430068E018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AmericanSpace App";
+			productName = "AmericanSpace App";
+			productReference = FAF56D5D2636FA430068E018 /* AmericanSpace App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF56D6D2636FA440068E018 /* AmericanSpace AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF56D852636FA440068E018 /* Build configuration list for PBXNativeTarget "AmericanSpace AppTests" */;
+			buildPhases = (
+				FAF56D6A2636FA440068E018 /* Sources */,
+				FAF56D6B2636FA440068E018 /* Frameworks */,
+				FAF56D6C2636FA440068E018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF56D702636FA440068E018 /* PBXTargetDependency */,
+			);
+			name = "AmericanSpace AppTests";
+			productName = "AmericanSpace AppTests";
+			productReference = FAF56D6E2636FA440068E018 /* AmericanSpace AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF56D782636FA440068E018 /* AmericanSpace AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF56D882636FA440068E018 /* Build configuration list for PBXNativeTarget "AmericanSpace AppUITests" */;
+			buildPhases = (
+				FAF56D752636FA440068E018 /* Sources */,
+				FAF56D762636FA440068E018 /* Frameworks */,
+				FAF56D772636FA440068E018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF56D7B2636FA440068E018 /* PBXTargetDependency */,
+			);
+			name = "AmericanSpace AppUITests";
+			productName = "AmericanSpace AppUITests";
+			productReference = FAF56D792636FA440068E018 /* AmericanSpace AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF56D552636FA430068E018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAF56D5C2636FA430068E018 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FAF56D6D2636FA440068E018 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FAF56D5C2636FA430068E018;
+					};
+					FAF56D782636FA440068E018 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FAF56D5C2636FA430068E018;
+					};
+				};
+			};
+			buildConfigurationList = FAF56D582636FA430068E018 /* Build configuration list for PBXProject "AmericanSpace App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF56D542636FA430068E018;
+			productRefGroup = FAF56D5E2636FA430068E018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF56D5C2636FA430068E018 /* AmericanSpace App */,
+				FAF56D6D2636FA440068E018 /* AmericanSpace AppTests */,
+				FAF56D782636FA440068E018 /* AmericanSpace AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF56D5B2636FA430068E018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF56D682636FA440068E018 /* Preview Assets.xcassets in Resources */,
+				FAF56D652636FA440068E018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF56D6C2636FA440068E018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF56D772636FA440068E018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF56D592636FA430068E018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF56D632636FA430068E018 /* ContentView.swift in Sources */,
+				FAF56D612636FA430068E018 /* AmericanSpace_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF56D6A2636FA440068E018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF56D732636FA440068E018 /* AmericanSpace_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF56D752636FA440068E018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF56D7E2636FA440068E018 /* AmericanSpace_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF56D702636FA440068E018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF56D5C2636FA430068E018 /* AmericanSpace App */;
+			targetProxy = FAF56D6F2636FA440068E018 /* PBXContainerItemProxy */;
+		};
+		FAF56D7B2636FA440068E018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF56D5C2636FA430068E018 /* AmericanSpace App */;
+			targetProxy = FAF56D7A2636FA440068E018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAF56D802636FA440068E018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF56D812636FA440068E018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF56D832636FA440068E018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AmericanSpace App/Preview Content\"";
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AmericanSpace App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drkh-n.AmericanSpace-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF56D842636FA440068E018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AmericanSpace App/Preview Content\"";
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AmericanSpace App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drkh-n.AmericanSpace-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF56D862636FA440068E018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = "AmericanSpace AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drkh-n.AmericanSpace-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanSpace App.app/AmericanSpace App";
+			};
+			name = Debug;
+		};
+		FAF56D872636FA440068E018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = "AmericanSpace AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drkh-n.AmericanSpace-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanSpace App.app/AmericanSpace App";
+			};
+			name = Release;
+		};
+		FAF56D892636FA440068E018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = "AmericanSpace AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drkh-n.AmericanSpace-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AmericanSpace App";
+			};
+			name = Debug;
+		};
+		FAF56D8A2636FA440068E018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = "AmericanSpace AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drkh-n.AmericanSpace-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AmericanSpace App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF56D582636FA430068E018 /* Build configuration list for PBXProject "AmericanSpace App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF56D802636FA440068E018 /* Debug */,
+				FAF56D812636FA440068E018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF56D822636FA440068E018 /* Build configuration list for PBXNativeTarget "AmericanSpace App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF56D832636FA440068E018 /* Debug */,
+				FAF56D842636FA440068E018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF56D852636FA440068E018 /* Build configuration list for PBXNativeTarget "AmericanSpace AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF56D862636FA440068E018 /* Debug */,
+				FAF56D872636FA440068E018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF56D882636FA440068E018 /* Build configuration list for PBXNativeTarget "AmericanSpace AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF56D892636FA440068E018 /* Debug */,
+				FAF56D8A2636FA440068E018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF56D552636FA430068E018 /* Project object */;
+}
