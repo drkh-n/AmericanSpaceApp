@@ -1,0 +1,6 @@
+framework module Pods_AmericanSpace_AppTests {
+  umbrella header "Pods-AmericanSpace AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
